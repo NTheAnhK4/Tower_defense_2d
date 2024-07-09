@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab2b142dff62d644984590b04c98d6f, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 7193463383479475879, guid: af808494a82d7c44a92ace134907b63a, type: 3}
+  prefabData:
+    spawnerPrefab: {fileID: 1622171758247981486, guid: db5eb2e9fa310994fb3a3ba39b05a747, type: 3}
+    pathwayPrefab: {fileID: 8817869771793649234, guid: 66a2716296931c5468365310b31e5bfa, type: 3}
+    wavePrefab: {fileID: 2443030906323552110, guid: 698663f9a2e177b42bc99a7a8298b15d, type: 3}
+    miniWavePrefab: {fileID: 5940573155981873794, guid: 12fe1d790f7311c489525fcb7d78d997, type: 3}
+    towerPosition: {fileID: 6801323888984938355, guid: c00ea542667c1dc468966db3fb4d408e, type: 3}
+  listMonstersData:
+  - monsterName: Yellow
+    monsterID: 0
+    spiritStoneAmount: 3
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 2
+    speed: 2.5
+  - monsterName: Blue
+    monsterID: 1
+    spiritStoneAmount: 7
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 5
+    speed: 2
+  - monsterName: Red
+    monsterID: 2
+    spiritStoneAmount: 10
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 15
+    speed: 1.5
+  - monsterName: Orange
+    monsterID: 2
+    spiritStoneAmount: 10
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 25
+    speed: 1.5
+  - monsterName: Pink
+    monsterID: 4
+    spiritStoneAmount: 30
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 40
+    speed: 1.25
+  - monsterName: Green
+    monsterID: 5
+    spiritStoneAmount: 50
+    damage: 1
+    monsterPrefab: {fileID: 0}
+    maxHP: 150
+    speed: 1
+  listTowerData:
+  - towerName: Machine Gun
+    towerID: 0
+    canAirShoot: 0
+    listSpecifications:
+    - name: Machine Gun Lv1
+      spiritStoneToBuy: 100
+      spiritStoneGetWhenSale: 75
+      damage: 1.5
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 0.3
+      shootingRange: 2.5
+    - name: Machine Gun Lv2
+      spiritStoneToBuy: 150
+      spiritStoneGetWhenSale: 150
+      damage: 3
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 0.25
+      shootingRange: 3
+  - towerName: Canon
+    towerID: 1
+    canAirShoot: 0
+    listSpecifications:
+    - name: Canon Lv1
+      spiritStoneToBuy: 200
+      spiritStoneGetWhenSale: 150
+      damage: 25
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 1.25
+      shootingRange: 5
+    - name: Canon Lv2
+      spiritStoneToBuy: 250
+      spiritStoneGetWhenSale: 300
+      damage: 25
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 1.25
+      shootingRange: 5
+  - towerName: Rocket
+    towerID: 2
+    canAirShoot: 0
+    listSpecifications:
+    - name: Mini Rocket
+      spiritStoneToBuy: 300
+      spiritStoneGetWhenSale: 225
+      damage: 20
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 2.5
+      shootingRange: 6
+    - name: Ultimate Rocket
+      spiritStoneToBuy: 400
+      spiritStoneGetWhenSale: 450
+      damage: 50
+      caseSprite: {fileID: 0}
+      towerSprite: {fileID: 0}
+      bulletPrefab: {fileID: 0}
+      cooldown: 2
+      shootingRange: 6

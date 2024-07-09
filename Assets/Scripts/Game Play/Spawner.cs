@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spawner : MonoBehaviour
+{
+    public int spanwerID;
+    public SpawnerData spawnerData;
+
+
+    public void InitSpawner(SpawnerData data)
+    {
+        spawnerData = data;
+        transform.position = data.position;
+    }
+}
